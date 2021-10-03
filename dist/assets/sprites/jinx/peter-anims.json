@@ -1,0 +1,138 @@
+{
+    "anims": [
+        {
+            "key": "anim-peter-idle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "premierShip",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "premierShip",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "anim-peter-up",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "premierShip",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "premierShip",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "anim-peter-down",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "premierShip",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "premierShip",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "anims-peter-idle-title",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "petemetalslug",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "petemetalslug",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "petemetalslug",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "petemetalslug",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "petemetalslug",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "anim-bullet",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "bullet",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bullet",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bullet",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}

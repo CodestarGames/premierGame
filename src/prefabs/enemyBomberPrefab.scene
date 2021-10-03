@@ -1,0 +1,46 @@
+{
+    "id": "b35dfe46-19ed-408f-9831-fb975c76677a",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 640,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "c06d7475-4c86-466a-8480-e15677f8650e",
+            "label": "image",
+            "components": [],
+            "texture": {
+                "key": "nathan"
+            },
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    },
+    "prefabProperties": [
+        {
+            "name": "timeBetweenShots",
+            "label": "timeBetweenShots",
+            "tooltip": "timeBetweenShots",
+            "defValue": 2000,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

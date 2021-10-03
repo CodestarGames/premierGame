@@ -1,0 +1,50 @@
+{
+    "id": "26a710dd-fd69-4c8f-a8b3-ee0fb0a9fe93",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 640,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "2712de32-6e37-409d-9cec-471cc89af78d",
+            "label": "sprite",
+            "components": [
+                "CompPhysics"
+            ],
+            "CompPhysics.bodyWidth": 8,
+            "CompPhysics.bodyHeight": 8,
+            "CompPhysics.bodyOffsetX": 4,
+            "CompPhysics.bodyOffsetY": 4,
+            "texture": {
+                "key": "KupoCoin-sm"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    },
+    "prefabProperties": [
+        {
+            "name": "value",
+            "label": "value",
+            "tooltip": "value",
+            "defValue": 1,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

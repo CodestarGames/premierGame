@@ -1,0 +1,50 @@
+{
+    "id": "b988632b-38e3-480c-98b1-0ffe3447e200",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 640,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "38fe1b23-bb82-450c-ad25-1916d3d88716",
+            "label": "horseshoe",
+            "components": [
+                "CompPhysics"
+            ],
+            "CompPhysics.bodyWidth": 112,
+            "CompPhysics.bodyHeight": 112,
+            "texture": {
+                "key": "premier-muppet"
+            },
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    },
+    "prefabProperties": [
+        {
+            "name": "coinValue",
+            "label": "coinValue",
+            "tooltip": "coinValue",
+            "defValue": 4,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

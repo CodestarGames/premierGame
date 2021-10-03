@@ -1,0 +1,115 @@
+{
+    "id": "1fc05ecc-5b15-46eb-b1c6-7e7977a4bbf7",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 960,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "2a6df79a-c816-4e3d-8c75-28a283d20f1c",
+            "label": "container_1",
+            "components": [],
+            "y": -2,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "465335e9-e938-4238-861e-b36d90745de4",
+                    "label": "powerup_ui_00",
+                    "components": [],
+                    "texture": {
+                        "key": "powerup-ui-0",
+                        "frame": 1
+                    },
+                    "y": 4.285714285714286
+                },
+                {
+                    "type": "Image",
+                    "id": "705b315f-d618-4ae3-a58f-28720da8a908",
+                    "label": "powerup_ui_10",
+                    "components": [],
+                    "texture": {
+                        "key": "powerup-ui-1",
+                        "frame": 1
+                    },
+                    "x": 32,
+                    "y": 4.285714285714286
+                },
+                {
+                    "type": "Image",
+                    "id": "58ddfd3d-e69b-431d-a67d-fce31b100f9d",
+                    "label": "powerup_ui_20",
+                    "components": [],
+                    "texture": {
+                        "key": "powerup-ui-2",
+                        "frame": 1
+                    },
+                    "x": 64,
+                    "y": 4.285714285714286
+                },
+                {
+                    "type": "Image",
+                    "id": "6c334233-dc72-402f-bce4-a007058bb9db",
+                    "label": "powerup_ui_30",
+                    "components": [],
+                    "texture": {
+                        "key": "powerup-ui-3",
+                        "frame": 1
+                    },
+                    "x": 96,
+                    "y": 4.285714285714286
+                },
+                {
+                    "type": "Image",
+                    "id": "8f2c57ec-b3f4-4e67-8d77-705e938033c2",
+                    "label": "powerup_ui_40",
+                    "components": [],
+                    "texture": {
+                        "key": "powerup-ui-4",
+                        "frame": 1
+                    },
+                    "x": 128,
+                    "y": 4.285714285714286
+                },
+                {
+                    "type": "Image",
+                    "id": "9b9bdebb-5971-4bdd-b5ab-871a07cbfd97",
+                    "label": "powerup_ui_50",
+                    "components": [],
+                    "texture": {
+                        "key": "powerup-ui-5",
+                        "frame": 1
+                    },
+                    "x": 160,
+                    "y": 4.285714285714286
+                },
+                {
+                    "type": "Image",
+                    "id": "93de0b04-c415-43c8-96d5-75058c2984c9",
+                    "label": "powerup_ui_60",
+                    "components": [],
+                    "texture": {
+                        "key": "powerup-ui-6",
+                        "frame": 1
+                    },
+                    "x": 192,
+                    "y": 4.285714285714286
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    }
+}

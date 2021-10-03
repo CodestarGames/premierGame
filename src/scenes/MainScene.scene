@@ -1,0 +1,350 @@
+{
+    "id": "a6d17c7e-d977-457d-8b65-e0061263479f",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapEnabled": true,
+        "snapWidth": 8,
+        "snapHeight": 8,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "MainScene",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 960,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Layer",
+            "id": "5e51a757-35e7-465c-8897-466a121ec8be",
+            "label": "backgrounds",
+            "components": [],
+            "allowPickChildren": false,
+            "list": [
+                {
+                    "type": "TileSprite",
+                    "id": "a5de0a40-7856-4881-8dff-13160960b20b",
+                    "label": "background_1",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "texture": {
+                        "key": "premierBG"
+                    },
+                    "y": 384,
+                    "scaleX": 3,
+                    "scaleY": 3,
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 320,
+                    "height": 192,
+                    "tilePositionY": 64
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "36dd65c0-5204-4bbf-bd70-7f03027e9eb6",
+                    "label": "background_2",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "texture": {
+                        "key": "premierBG"
+                    },
+                    "y": 192,
+                    "scaleX": 3,
+                    "scaleY": 3,
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 320,
+                    "height": 64
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "b096f999-ac81-4253-9912-46d464d89c9c",
+                    "label": "background_3",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "texture": {
+                        "key": "premierBG"
+                    },
+                    "scaleX": 3,
+                    "scaleY": 3,
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 320,
+                    "height": 64
+                }
+            ]
+        },
+        {
+            "type": "Layer",
+            "id": "7380f668-9f91-42a3-ae25-50c8c02d9dcf",
+            "label": "entitiesLayer",
+            "scope": "PUBLIC",
+            "components": [],
+            "list": [
+                {
+                    "prefabId": "0d5c88ee-1488-47ce-8600-d58073cf3f22",
+                    "id": "bd90dbf1-c0db-4500-9496-bcb0af31d25f",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "player",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": -232,
+                    "y": 576
+                },
+                {
+                    "prefabId": "26a710dd-fd69-4c8f-a8b3-ee0fb0a9fe93",
+                    "id": "be07c761-e784-45d6-ae9a-737f2383a881",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "coinPrefab1",
+                    "components": [],
+                    "x": 320,
+                    "y": 152
+                }
+            ]
+        },
+        {
+            "type": "Layer",
+            "id": "79a5f233-dfe3-47da-80fd-fb9c0b1cb682",
+            "label": "hiddenObjs",
+            "components": [],
+            "visible": false,
+            "list": [
+                {
+                    "prefabId": "3e58361d-59e0-4927-bce5-96ebe4b616eb",
+                    "id": "309b7653-064e-4b64-bf45-5aba42ea212d",
+                    "unlock": [
+                        "tetherName",
+                        "x",
+                        "y"
+                    ],
+                    "label": "tetherPrefab_1",
+                    "components": [],
+                    "x": 928,
+                    "y": 1784
+                }
+            ]
+        },
+        {
+            "prefabId": "b988632b-38e3-480c-98b1-0ffe3447e200",
+            "id": "50875353-c15d-415c-9c22-5b013431a115",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "backwardShooterEnemyPrefab1",
+            "components": [],
+            "x": 848,
+            "y": 128
+        },
+        {
+            "prefabId": "b988632b-38e3-480c-98b1-0ffe3447e200",
+            "id": "5ecdb201-6b43-40d8-8d8c-53a6bc5f5cb1",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "backwardShooterEnemyPrefab1_1",
+            "components": [],
+            "x": 1128,
+            "y": 200
+        },
+        {
+            "prefabId": "b988632b-38e3-480c-98b1-0ffe3447e200",
+            "id": "06b4fbef-4512-4012-ba37-f990884ebf05",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "backwardShooterEnemyPrefab1_2",
+            "components": [],
+            "x": 1064,
+            "y": 272
+        },
+        {
+            "prefabId": "b988632b-38e3-480c-98b1-0ffe3447e200",
+            "id": "1bcc61ed-40c2-482c-9413-bfd0629c5ce3",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "backwardShooterEnemyPrefab1_3",
+            "components": [],
+            "x": 984,
+            "y": 344
+        },
+        {
+            "prefabId": "b988632b-38e3-480c-98b1-0ffe3447e200",
+            "id": "c1912b35-4107-46c4-973d-d857574d3694",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "backwardShooterEnemyPrefab1_4",
+            "components": [],
+            "x": 896,
+            "y": 416
+        },
+        {
+            "prefabId": "b988632b-38e3-480c-98b1-0ffe3447e200",
+            "id": "0ef5a021-3b5a-4507-8209-5d2748951f8f",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "backwardShooterEnemyPrefab1_5",
+            "components": [],
+            "x": 848,
+            "y": 488
+        },
+        {
+            "prefabId": "b35dfe46-19ed-408f-9831-fb975c76677a",
+            "id": "f628c828-0420-4b86-b429-95ec60820f49",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "enemyBomberPrefab1",
+            "components": [],
+            "x": 328,
+            "y": 80
+        },
+        {
+            "prefabId": "0cdaacdb-3ad8-47c2-b039-185c25216c59",
+            "id": "f056663d-77b5-4ce0-a254-5ac0ad845b7a",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "arcJumperPrefab1",
+            "components": [],
+            "x": 867,
+            "y": 684
+        },
+        {
+            "type": "Rectangle",
+            "id": "f153edf4-93f8-4eda-bc25-7613642d544f",
+            "label": "deathRectBottom",
+            "scope": "PUBLIC",
+            "components": [
+                "CompPhysics"
+            ],
+            "CompPhysics.isStatic": true,
+            "CompPhysics.bodyWidth": 960,
+            "CompPhysics.bodyHeight": 32,
+            "y": 960,
+            "originX": 0,
+            "originY": 0,
+            "isFilled": true,
+            "width": 960,
+            "height": 32
+        },
+        {
+            "type": "Rectangle",
+            "id": "5d8ec230-b6e4-46ec-a8ba-26b623262bb5",
+            "label": "bulletDeathRectRight",
+            "scope": "PUBLIC",
+            "components": [
+                "CompPhysics"
+            ],
+            "CompPhysics.isStatic": true,
+            "CompPhysics.bodyWidth": 32,
+            "CompPhysics.bodyHeight": 960,
+            "x": 960,
+            "originX": 0,
+            "originY": 0,
+            "isFilled": true,
+            "width": 32,
+            "height": 960
+        },
+        {
+            "type": "Sprite",
+            "id": "be442aa6-5ff4-42b8-ad2d-95181a397d9c",
+            "label": "shootTextSpr",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "shootText",
+                "frame": 0
+            },
+            "x": 480,
+            "y": 480,
+            "scaleX": 3,
+            "scaleY": 3
+        },
+        {
+            "type": "Rectangle",
+            "id": "65393d27-e95e-4979-b4f1-24e0fd5e0205",
+            "label": "bulletDeathRectLeft",
+            "scope": "PUBLIC",
+            "components": [
+                "CompPhysics"
+            ],
+            "CompPhysics.isStatic": true,
+            "CompPhysics.bodyWidth": 32,
+            "CompPhysics.bodyHeight": 960,
+            "x": -80,
+            "originX": 0,
+            "originY": 0,
+            "isFilled": true,
+            "width": 32,
+            "height": 960
+        },
+        {
+            "type": "Rectangle",
+            "id": "04629ef0-0464-4268-a3ae-d80e275be4d9",
+            "label": "deathRectTop",
+            "scope": "PUBLIC",
+            "components": [
+                "CompPhysics"
+            ],
+            "CompPhysics.isStatic": true,
+            "CompPhysics.bodyWidth": 960,
+            "CompPhysics.bodyHeight": 32,
+            "y": -32,
+            "originX": 0,
+            "originY": 0,
+            "isFilled": true,
+            "width": 960,
+            "height": 32
+        },
+        {
+            "type": "Image",
+            "id": "950c5608-b082-4923-be2c-f7557b6d0c7f",
+            "label": "rpg_pete",
+            "components": [],
+            "texture": {
+                "key": "premier-pete"
+            },
+            "x": 8,
+            "y": 8,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "originX": 0,
+            "originY": 0
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    },
+    "lists": [
+        {
+            "id": "619d4f3f-1dce-4281-9018-2e6104114d76",
+            "label": "hiddenObjsList",
+            "objectIds": [
+                "309b7653-064e-4b64-bf45-5aba42ea212d"
+            ],
+            "scope": "PUBLIC"
+        }
+    ]
+}

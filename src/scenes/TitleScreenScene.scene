@@ -1,0 +1,111 @@
+{
+    "id": "18d6b66f-fcdb-4731-b81c-a7baf8b3b932",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "TitleScreenScene",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 960,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "TileSprite",
+            "id": "6ef508c0-ae49-4ee4-a3a2-e5f692415312",
+            "label": "tilesprite",
+            "components": [],
+            "texture": {
+                "key": "premierBG"
+            },
+            "scaleX": 3,
+            "scaleY": 3,
+            "originX": 0,
+            "originY": 0,
+            "width": 320,
+            "height": 120,
+            "tilePositionY": 256
+        },
+        {
+            "type": "TileSprite",
+            "id": "fb180067-3291-401a-b81d-10700ed03cee",
+            "label": "tilesprite_1",
+            "components": [],
+            "texture": {
+                "key": "premierBG"
+            },
+            "y": 352,
+            "scaleX": 3,
+            "scaleY": 3,
+            "originX": 0,
+            "originY": 0,
+            "width": 320,
+            "height": 120,
+            "tilePositionY": 256
+        },
+        {
+            "type": "TileSprite",
+            "id": "1e29fbec-396d-4f1a-9a2b-8793b4f874ad",
+            "label": "tilesprite_2",
+            "components": [],
+            "texture": {
+                "key": "premierBG"
+            },
+            "y": 608,
+            "scaleX": 3,
+            "scaleY": 3,
+            "originX": 0,
+            "originY": 0,
+            "width": 320,
+            "height": 120,
+            "tilePositionY": 256
+        },
+        {
+            "type": "Image",
+            "id": "e735a995-2c01-4ac6-b1db-47a8ca635973",
+            "label": "title",
+            "components": [],
+            "texture": {
+                "key": "title"
+            },
+            "x": 480,
+            "y": 416
+        },
+        {
+            "type": "Sprite",
+            "id": "23f75c89-1816-4a66-9011-2152a81f35d5",
+            "label": "peteTitleAnim",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "petemetalslug",
+                "frame": 0
+            },
+            "x": 688,
+            "y": 314,
+            "scaleX": 3,
+            "scaleY": 3
+        },
+        {
+            "type": "Image",
+            "id": "23d4d8a2-2103-4f9b-a8c1-343a7dd93aec",
+            "label": "pressStartImg",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "pressStart"
+            },
+            "x": 480,
+            "y": 724
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "id": "5051c014-4756-47bf-8ccc-1987f54cc1f2",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 640,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "984f001a-e6b2-4f83-a9f8-37ee9c97d687",
+            "label": "enemyClover",
+            "components": [
+                "CompPhysics",
+                "CompMoveToPlayerInRange"
+            ],
+            "CompPhysics.bodyWidth": 12,
+            "CompPhysics.bodyHeight": 12,
+            "CompPhysics.bodyOffsetX": 2,
+            "CompPhysics.bodyOffsetY": 4,
+            "CompMoveToPlayerInRange.range": 64,
+            "CompMoveToPlayerInRange.maxDistFromTether": 16,
+            "texture": {
+                "key": "clover-idle",
+                "frame": 0
+            },
+            "originY": 1
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    },
+    "prefabProperties": [
+        {
+            "name": "coinValue",
+            "label": "coinValue",
+            "tooltip": "coinValue",
+            "defValue": 4,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

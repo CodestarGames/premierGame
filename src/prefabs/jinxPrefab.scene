@@ -1,0 +1,43 @@
+{
+    "id": "0d5c88ee-1488-47ce-8600-d58073cf3f22",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 640,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "551b672d-69a5-4dd2-b071-f9a4f0bd395e",
+            "label": "jinxPrefab",
+            "scope": "CLASS",
+            "components": [
+                "CompPhysics",
+                "CompKeyboardMovement",
+                "CompPlayerInput"
+            ],
+            "CompPhysics.bodyWidth": 90,
+            "CompPhysics.bodyHeight": 60,
+            "CompPlayerInput.speed": 300,
+            "CompPlayerInput.animPrefix": "anim-peter",
+            "texture": {
+                "key": "premierShip",
+                "frame": 0
+            },
+            "originY": 1
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    }
+}

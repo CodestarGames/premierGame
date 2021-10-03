@@ -1,0 +1,503 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/sprites/enemies/abroad.png",
+                "type": "image",
+                "key": "abroad"
+            },
+            {
+                "url": "assets/sprites/environment/badluck.png",
+                "frameConfig": {
+                    "frameWidth": 16,
+                    "frameHeight": 16,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "badluck"
+            },
+            {
+                "url": "assets/sprites/items/bits-1.png",
+                "type": "image",
+                "key": "bits-1"
+            },
+            {
+                "url": "assets/sprites/items/bits-2.png",
+                "type": "image",
+                "key": "bits-2"
+            },
+            {
+                "url": "assets/sprites/items/bits-3.png",
+                "type": "image",
+                "key": "bits-3"
+            },
+            {
+                "url": "assets/sprites/items/bits-4.png",
+                "type": "image",
+                "key": "bits-4"
+            },
+            {
+                "url": "assets/sprites/ui/bullet.png",
+                "frameConfig": {
+                    "frameWidth": 8,
+                    "frameHeight": 8,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "bullet"
+            },
+            {
+                "url": "assets/sprites/enemies/clover-idle.png",
+                "frameConfig": {
+                    "frameWidth": 16,
+                    "frameHeight": 16,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "clover-idle"
+            },
+            {
+                "url": "assets/sprites/ui/codestarLogo.png",
+                "type": "image",
+                "key": "codestarLogo"
+            },
+            {
+                "url": "assets/sprites/enemies/dotdecore.png",
+                "type": "image",
+                "key": "dotdecore"
+            },
+            {
+                "url": "assets/sprites/enemies/enemy-anims.json",
+                "type": "animation",
+                "key": "enemy-anims"
+            },
+            {
+                "url": "assets/sprites/environment/environment-anims.json",
+                "type": "animation",
+                "key": "environment-anims"
+            },
+            {
+                "url": "assets/sprites/environment/fireball.png",
+                "frameConfig": {
+                    "frameWidth": 16,
+                    "frameHeight": 16,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "fireball"
+            },
+            {
+                "url": "assets/sprites/enemies/horseshoe-idle.png",
+                "frameConfig": {
+                    "frameWidth": 21,
+                    "frameHeight": 19,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "horseshoe-idle"
+            },
+            {
+                "url": "assets/sprites/enemies/ian.png",
+                "type": "image",
+                "key": "ian"
+            },
+            {
+                "url": "assets/sprites/jinx/jinx-anims.json",
+                "type": "animation",
+                "key": "jinx-anims"
+            },
+            {
+                "url": "assets/sprites/jinx/jinx-idle.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "jinx-idle"
+            },
+            {
+                "url": "assets/sprites/jinx/jinx-run.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "jinx-run"
+            },
+            {
+                "url": "assets/sprites/enemies/kupo-moogle.png",
+                "type": "image",
+                "key": "kupo-moogle"
+            },
+            {
+                "url": "assets/sprites/items/KupoCoin.png",
+                "type": "image",
+                "key": "KupoCoin"
+            },
+            {
+                "url": "assets/sprites/items/KupoCoin-sm.png",
+                "type": "image",
+                "key": "KupoCoin-sm"
+            },
+            {
+                "url": "assets/sprites/enemies/mudan.png",
+                "type": "image",
+                "key": "mudan"
+            },
+            {
+                "url": [
+                    "assets/music/CamBomb_-_The_Gaming_Wizard_-_looping_-_with_lyrics.mp3"
+                ],
+                "type": "audio",
+                "key": "musicGamingWizard"
+            },
+            {
+                "url": [
+                    "assets/music/P2 GBA.mp3"
+                ],
+                "type": "audio",
+                "key": "musicTitle"
+            },
+            {
+                "url": "assets/sprites/enemies/nathan.png",
+                "type": "image",
+                "key": "nathan"
+            },
+            {
+                "url": "assets/sprites/environment/ok.png",
+                "type": "image",
+                "key": "ok"
+            },
+            {
+                "url": "assets/sprites/ui/petemetalslug.png",
+                "frameConfig": {
+                    "frameWidth": 46,
+                    "frameHeight": 46,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "petemetalslug"
+            },
+            {
+                "url": "assets/sprites/jinx/peter-anims.json",
+                "type": "animation",
+                "key": "peter-anims"
+            },
+            {
+                "url": "assets/sprites/environment/poof.png",
+                "frameConfig": {
+                    "frameWidth": 24,
+                    "frameHeight": 25,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "poof"
+            },
+            {
+                "url": "assets/sprites/ui/powerup-ui-0000.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 8,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "powerup-ui-0"
+            },
+            {
+                "url": "assets/sprites/ui/powerup-ui-0001.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 8,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "powerup-ui-1"
+            },
+            {
+                "url": "assets/sprites/ui/powerup-ui-0002.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 8,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "powerup-ui-2"
+            },
+            {
+                "url": "assets/sprites/ui/powerup-ui-0003.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 8,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "powerup-ui-3"
+            },
+            {
+                "url": "assets/sprites/ui/powerup-ui-0004.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 8,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "powerup-ui-4"
+            },
+            {
+                "url": "assets/sprites/ui/powerup-ui-0005.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 8,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "powerup-ui-5"
+            },
+            {
+                "url": "assets/sprites/ui/powerup-ui-0006.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 8,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "powerup-ui-6"
+            },
+            {
+                "url": "assets/sprites/enemies/premier-cage.png",
+                "type": "image",
+                "key": "premier-cage"
+            },
+            {
+                "url": "assets/sprites/enemies/premier-chonk.png",
+                "type": "image",
+                "key": "premier-chonk"
+            },
+            {
+                "url": "assets/sprites/enemies/premier-ect.png",
+                "type": "image",
+                "key": "premier-ect"
+            },
+            {
+                "url": "assets/sprites/enemies/premier-muppet.png",
+                "type": "image",
+                "key": "premier-muppet"
+            },
+            {
+                "url": "assets/sprites/enemies/premier-pete.png",
+                "type": "image",
+                "key": "premier-pete"
+            },
+            {
+                "url": "assets/sprites/enemies/premier-roll.gif",
+                "type": "image",
+                "key": "premier-roll"
+            },
+            {
+                "url": "assets/sprites/items/premier-sub.png",
+                "type": "image",
+                "key": "premier-sub"
+            },
+            {
+                "url": "assets/sprites/environment/premierBG.png",
+                "type": "image",
+                "key": "premierBG"
+            },
+            {
+                "url": "assets/sprites/jinx/premierShip.png",
+                "frameConfig": {
+                    "frameWidth": 93,
+                    "frameHeight": 80,
+                    "startFrame": 0,
+                    "endFrame": 5,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "premierShip"
+            },
+            {
+                "url": "assets/sprites/ui/PremierTendo.png",
+                "type": "image",
+                "key": "PremierTendo"
+            },
+            {
+                "url": "assets/sprites/ui/pressStart.png",
+                "type": "image",
+                "key": "pressStart"
+            },
+            {
+                "url": "assets/sprites/enemies/rpg-pete.png",
+                "type": "image",
+                "key": "rpg-pete"
+            },
+            {
+                "url": "assets/sprites/enemies/rpg-pete-beaten.png",
+                "type": "image",
+                "key": "rpg-pete-beaten"
+            },
+            {
+                "url": "assets/sprites/enemies/rpgenius.png",
+                "type": "image",
+                "key": "rpgenius"
+            },
+            {
+                "url": [
+                    "assets/sounds/sfxCoin.wav"
+                ],
+                "type": "audio",
+                "key": "sfxCoin"
+            },
+            {
+                "url": [
+                    "assets/sounds/sfxExplode.wav"
+                ],
+                "type": "audio",
+                "key": "sfxExplode"
+            },
+            {
+                "url": [
+                    "assets/sounds/sfxGameStart.wav"
+                ],
+                "type": "audio",
+                "key": "sfxGameStart"
+            },
+            {
+                "url": [
+                    "assets/sounds/sfxPlayerExplode.wav"
+                ],
+                "type": "audio",
+                "key": "sfxPlayerExplode"
+            },
+            {
+                "url": [
+                    "assets/sounds/sfxPowerUp.wav"
+                ],
+                "type": "audio",
+                "key": "sfxPowerUp"
+            },
+            {
+                "url": [
+                    "assets/sounds/sfxPtendo.wav"
+                ],
+                "type": "audio",
+                "key": "sfxPtendo"
+            },
+            {
+                "url": [
+                    "assets/sounds/sfxShoot.wav"
+                ],
+                "type": "audio",
+                "key": "sfxShoot"
+            },
+            {
+                "url": "assets/sprites/enemies/shane.png",
+                "type": "image",
+                "key": "shane"
+            },
+            {
+                "url": "assets/sprites/enemies/ship.png",
+                "type": "image",
+                "key": "ship"
+            },
+            {
+                "url": "assets/sprites/environment/shootText.png",
+                "frameConfig": {
+                    "frameWidth": 82,
+                    "frameHeight": 20,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "shootText"
+            },
+            {
+                "url": "assets/sprites/ui/title.png",
+                "type": "image",
+                "key": "title"
+            },
+            {
+                "url": "assets/sprites/environment/wait.png",
+                "type": "image",
+                "key": "wait"
+            },
+            {
+                "url": "assets/sprites/enemies/wall-trap.png",
+                "frameConfig": {
+                    "frameWidth": 16,
+                    "frameHeight": 16,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "wall-trap"
+            },
+            {
+                "url": "assets/sprites/enemies/yuki.png",
+                "type": "image",
+                "key": "yuki"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

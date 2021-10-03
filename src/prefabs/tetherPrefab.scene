@@ -1,0 +1,44 @@
+{
+    "id": "3e58361d-59e0-4927-bce5-96ebe4b616eb",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 640,
+        "borderHeight": 480
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "29462af4-c065-44b4-b8a5-9ce8742ca7f5",
+            "label": "tether1",
+            "components": [],
+            "alpha": 0.5,
+            "isFilled": true,
+            "width": 16,
+            "height": 16
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "prefabProperties": [
+        {
+            "name": "tetheredInst",
+            "label": "tetheredInst",
+            "tooltip": "tetheredInst",
+            "defValue": "",
+            "type": {
+                "id": "expression",
+                "expressionType": "any"
+            }
+        }
+    ]
+}
